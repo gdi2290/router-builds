@@ -249,7 +249,7 @@ export declare type ResolveData = {
 /**
  * @stable
  */
-export declare type LoadChildrenCallback = () => Type<any> | Promise<Type<any>> | Observable<Type<any>>;
+export declare type LoadChildrenCallback = () => any | Promise<Type<any>> | Observable<any>;
 /**
  * @stable
  */
@@ -261,7 +261,7 @@ export declare type LoadChildren = string | LoadChildrenCallback;
 export interface Route {
     path?: string;
     pathMatch?: string;
-    component?: Type<any>;
+    component?: any;
     redirectTo?: string;
     outlet?: string;
     canActivate?: any[];
