@@ -249,7 +249,7 @@ export declare type ResolveData = {
 /**
  * @stable
  */
-export declare type LoadChildrenCallback = () => any | Promise<Type<any>> | Observable<any>;
+export declare type LoadChildrenCallback = () => any | Promise<any> | Observable<any>;
 /**
  * @stable
  */
