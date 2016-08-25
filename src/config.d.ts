@@ -253,7 +253,7 @@ export declare type LoadChildrenCallback = () => any | Promise<any> | Observable
 /**
  * @stable
  */
-export declare type LoadChildren = string | LoadChildrenCallback;
+export declare type LoadChildren = string | LoadChildrenCallback | any;
 /**
  * See {@link Routes} for more details.
  * @stable
